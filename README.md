@@ -1,10 +1,10 @@
 # System One Model from Scratch
 
-A rebuild of [CLM-8B](https://contrastive-lm.notion.site), an open System One model from Stanford and NVIDIA Research, made for a live workshop by [Dr. Raj Dandekar](https://vizuara.ai) and the team at Vizuara AI Labs.
+**Maintainer:** [Shifan T](https://github.com/shifanthottoli)
+
+An independent reproduction of [CLM-8B](https://contrastive-lm.notion.site), an open System One model from Stanford and NVIDIA Research. This project includes training code and evaluation results.
 
 A System One model does not write text. You give it a situation and a list of options, and it returns a probability for each option in one pass. [Jev](https://typesafe.ai) made the idea popular but is closed source, so this repo builds an open equivalent.
-
-**Site with games and results:** https://system-one-workshop.vercel.app
 
 ## The model
 
@@ -81,10 +81,10 @@ We could not rerun WikiRacing, Super Mario, BFCL or Terminal-Bench, because thei
 
 ```text
 pipeline/   data copy, trainer, agent data, embedding, testing, game rendering
-site/       the workshop deck: run python3 site/build.py; arrow keys to move, F for full screen, N for notes
+site/       presentation source and generated page
 results/    measured numbers
 ```
 
 ## Credits and licences
 
-CLM is by Jacky Kwok, Hangoo Kang, Tarun Suresh, Jon Saad-Falcon, Marco Pavone, Christopher Ré and Azalia Mirhoseini. Please cite [their work](https://contrastive-lm.notion.site). The Nemotron-derived data is under the NVIDIA Open Data License. Vizuara is not affiliated with the authors or with TypeSafe. The code in this repo is under the Apache 2.0 licence.
+CLM is by Jacky Kwok, Hangoo Kang, Tarun Suresh, Jon Saad-Falcon, Marco Pavone, Christopher Ré and Azalia Mirhoseini. Please cite [their work](https://contrastive-lm.notion.site). This independent reproduction was informed by a workshop presentation by Dr. Raj Dandekar and Vizuara AI Labs; it is not affiliated with them, the CLM authors, or TypeSafe. The Nemotron-derived data is under the NVIDIA Open Data License. The code in this repo is under the Apache 2.0 licence.
