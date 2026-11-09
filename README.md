@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # System One Model from Scratch
 
 **Maintainer:** [Shifan T](https://github.com/shifanthottoli)
@@ -88,3 +89,7 @@ results/    measured numbers
 ## Credits and licences
 
 CLM is by Jacky Kwok, Hangoo Kang, Tarun Suresh, Jon Saad-Falcon, Marco Pavone, Christopher Ré and Azalia Mirhoseini. Please cite [their work](https://contrastive-lm.notion.site). This independent reproduction was informed by a workshop presentation by Dr. Raj Dandekar and Vizuara AI Labs; it is not affiliated with them, the CLM authors, or TypeSafe. The Nemotron-derived data is under the NVIDIA Open Data License. The code in this repo is under the Apache 2.0 licence.
+=======
+# System-One-Model---CLM
+Independent reproduction of CLM-8B, an open System One model. Includes training code, evaluation results
+>>>>>>> origin/main
